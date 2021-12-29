@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="transform.xsl"?>
+<!DOCTYPE catalog SYSTEM "wonders.dtd">
+<catalog>
+    <continents>
+        <continent id="AS">Азиа</continent>
+        <continent id="AF">Африка</continent>
+        <continent id="NA">Северна Америка</continent>
+        <continent id="SA">Южна Америка</continent>
+        <continent id="AN">Антарктида</continent>
+        <continent id="EU">Европа</continent>
+        <continent id="AU">Австралия</continent>
+    </continents>
+    <wonders>
+        <wonder contRef="AS">
+            <name></name>
+            <location>
+                <city></city>
+                <region></region>
+                <country></country>
+            </location>
+            <description>alabala</description>
+            <history>djigir igi</history>
+            <availability></availability>
+            <images photos="test_photo"></images>
+        </wonder>
+    </wonders>
+</catalog>

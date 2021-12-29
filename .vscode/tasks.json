@@ -1,0 +1,20 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "xslt",
+			"label": "xslt: Saxon Transform (New)",
+			"saxonJar": "${config:XSLT.tasks.saxonJar}",
+			"xsltFile": "D:\\XML_COURSE_WORK\\transform.xsl",
+			"xmlSource": "D:\\XML_COURSE_WORK\\wonders.xml",
+			"resultPath": "${workspaceFolder}/xslt-out/result1.fo",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [
+				"$saxon-xslt"
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT catalog (continents, wonders)>
+
+<!ELEMENT continents (continent, continent, continent, continent, continent, continent, continent)>
+<!ELEMENT continent (#PCDATA)>
+<!ATTLIST continent id ID #REQUIRED>
+
+<!ELEMENT wonders (wonder+)>
+<!ELEMENT wonder (name, location, description, history, availability, images)>
+<!ATTLIST wonder contRef IDREF #IMPLIED>
+
+<!ELEMENT name (#PCDATA)>
+
+<!ELEMENT location (city, region, country)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT region (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+
+<!ELEMENT description (#PCDATA)>
+
+<!ELEMENT history (#PCDATA)>
+
+<!ELEMENT availability (#PCDATA)>
+
+<!ELEMENT images EMPTY>
+<!ATTLIST images photos ENTITIES #REQUIRED>
+
+<!NOTATION JPG SYSTEM "image/jpeg">
+<!ENTITY test_photo SYSTEM "images/1.jpeg" NDATA JPG>
