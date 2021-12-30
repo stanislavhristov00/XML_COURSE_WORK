@@ -22,8 +22,10 @@
 
 <!ELEMENT availability (#PCDATA)>
 
-<!ELEMENT images EMPTY>
-<!ATTLIST images photos ENTITIES #REQUIRED>
+<!ELEMENT images (image*)>
+<!ELEMENT image EMPTY>
+<!ATTLIST image src ENTITY #REQUIRED>
 
 <!NOTATION JPG SYSTEM "image/jpeg">
 <!ENTITY test_photo SYSTEM "images/1.jpeg" NDATA JPG>
+<!ENTITY test_photo2 SYSTEM "images/2.jpeg" NDATA JPG>

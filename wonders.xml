@@ -22,7 +22,25 @@
             <description>alabala</description>
             <history>djigir igi</history>
             <availability></availability>
-            <images photos="test_photo"></images>
+            <images>
+                <image src="test_photo" />
+                <image src="test_photo2"/>
+            </images>
+        </wonder>
+        <wonder contRef="AS">
+            <name></name>
+            <location>
+                <city></city>
+                <region></region>
+                <country></country>
+            </location>
+            <description>alabala</description>
+            <history>djigir igi</history>
+            <availability></availability>
+            <images>
+                <image src="test_photo" />
+                <image src="test_photo2"/>
+            </images>
         </wonder>
     </wonders>
 </catalog>

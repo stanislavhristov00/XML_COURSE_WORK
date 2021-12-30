@@ -13,7 +13,49 @@
          <fo:block>
             <fo:block>
                <fo:inline font-weight="bold">alabala</fo:inline>
-               <fo:inline font-weight="bold">djigirigi</fo:inline>
+               <fo:inline font-weight="bold">djigir igi</fo:inline>
+               <fo:block>
+                  <fo:inline>
+                     <fo:external-graphic src="file:/D:/XML_COURSE_WORK/images/1.jpeg"
+                                          content-height="scale-to-fit"
+                                          height="2.00in"
+                                          content-width="2.00in"
+                                          scaling="non-uniform"/>
+                  </fo:inline>
+                  <fo:inline>
+                     <fo:external-graphic src="file:/D:/XML_COURSE_WORK/images/2.jpeg"
+                                          content-height="scale-to-fit"
+                                          height="2.00in"
+                                          content-width="2.00in"
+                                          scaling="non-uniform"/>
+                  </fo:inline>
+               </fo:block>
+            </fo:block>
+         </fo:block>
+      </fo:flow>
+   </fo:page-sequence>
+   <fo:page-sequence master-reference="PageMaster">
+      <fo:flow flow-name="xsl-region-body">
+         <fo:block>
+            <fo:block>
+               <fo:inline font-weight="bold">alabala</fo:inline>
+               <fo:inline font-weight="bold">djigir igi</fo:inline>
+               <fo:block>
+                  <fo:inline>
+                     <fo:external-graphic src="file:/D:/XML_COURSE_WORK/images/1.jpeg"
+                                          content-height="scale-to-fit"
+                                          height="2.00in"
+                                          content-width="2.00in"
+                                          scaling="non-uniform"/>
+                  </fo:inline>
+                  <fo:inline>
+                     <fo:external-graphic src="file:/D:/XML_COURSE_WORK/images/2.jpeg"
+                                          content-height="scale-to-fit"
+                                          height="2.00in"
+                                          content-width="2.00in"
+                                          scaling="non-uniform"/>
+                  </fo:inline>
+               </fo:block>
             </fo:block>
          </fo:block>
       </fo:flow>
