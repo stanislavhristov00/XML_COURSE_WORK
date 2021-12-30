@@ -13,30 +13,38 @@
     </continents>
     <wonders>
         <wonder contRef="AS">
-            <name></name>
+            <name>TEST_NAME_1</name>
             <location>
-                <city></city>
-                <region></region>
-                <country></country>
+                <city>TEST_CITY_1</city>
+                <region>TEST_REGION_1</region>
+                <country>TEST_COUNTRY_1</country>
             </location>
-            <description>alabala</description>
-            <history>djigir igi</history>
-            <availability></availability>
+            <description>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</description>
+            <history>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris nisl, sagittis id quam id, facilisis tristique urna. In eleifend velit sit amet nisl sollicitudin, sed pellentesque orci porta. Suspendisse potenti. Donec in libero dignissim, congue elit ut, faucibus augue. Vivamus quis neque leo. Nullam metus dolor, tincidunt eget convallis at, semper in tortor. Integer a vestibulum nisl. Quisque id purus semper, feugiat ligula tincidunt, accumsan neque. Vestibulum velit justo, tristique sed cursus sed, efficitur sit amet ligula. Vestibulum fermentum dui quis felis dictum, ut facilisis ante laoreet. Duis varius posuere nisi, fringilla consectetur elit.
+
+In hac habitasse platea dictumst. Praesent facilisis ultrices facilisis. Nam eu metus dui. Sed id metus semper, faucibus nunc ut, euismod sem. Mauris volutpat non nisi sodales maximus. Nunc venenatis gravida efficitur. Nam pulvinar vel urna nec tempus. Duis porta id arcu a luctus. Suspendisse sit amet sodales turpis. Nunc in scelerisque purus.
+
+Proin tempor nunc libero, sed tincidunt velit bibendum in. Phasellus nisi massa, facilisis sed sollicitudin nec, rutrum in erat. Phasellus cursus neque nec arcu scelerisque porta. Pellentesque at sem at ipsum bibendum dictum. Vestibulum eget nunc quis neque tincidunt egestas sed id orci. Quisque auctor sem sed purus vehicula tempor. Aliquam erat volutpat. Nam nec odio ut turpis fringilla aliquam vitae ut ante. Morbi fermentum dictum elementum. Phasellus in orci magna. Mauris luctus enim at eros condimentum iaculis. Etiam sed nisl nunc. Nulla eget urna nec magna condimentum consectetur. Sed sed facilisis orci. Suspendisse ligula nisl, condimentum facilisis quam nec, lacinia facilisis sapien. Etiam et pellentesque felis.</history>
+            <availability>Curabitur pharetra gravida enim a porttitor. Vestibulum a viverra est, a gravida urna. Phasellus faucibus vehicula metus, sit amet mattis leo volutpat at. Donec hendrerit tempus posuere. Donec elementum neque risus. Praesent sagittis lorem odio, quis ultricies sem volutpat et. Phasellus ac dignissim nulla.</availability>
             <images>
                 <image src="test_photo" />
                 <image src="test_photo2"/>
             </images>
         </wonder>
         <wonder contRef="AS">
-            <name></name>
+            <name>TEST_NAME_2</name>
             <location>
-                <city></city>
-                <region></region>
-                <country></country>
+                <city>TEST_CITY_2</city>
+                <region>TEST_REGION_2</region>
+                <country>TEST_COUNTRY_2</country>
             </location>
-            <description>alabala</description>
-            <history>djigir igi</history>
-            <availability></availability>
+            <description>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</description>
+            <history>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris nisl, sagittis id quam id, facilisis tristique urna. In eleifend velit sit amet nisl sollicitudin, sed pellentesque orci porta. Suspendisse potenti. Donec in libero dignissim, congue elit ut, faucibus augue. Vivamus quis neque leo. Nullam metus dolor, tincidunt eget convallis at, semper in tortor. Integer a vestibulum nisl. Quisque id purus semper, feugiat ligula tincidunt, accumsan neque. Vestibulum velit justo, tristique sed cursus sed, efficitur sit amet ligula. Vestibulum fermentum dui quis felis dictum, ut facilisis ante laoreet. Duis varius posuere nisi, fringilla consectetur elit.
+
+In hac habitasse platea dictumst. Praesent facilisis ultrices facilisis. Nam eu metus dui. Sed id metus semper, faucibus nunc ut, euismod sem. Mauris volutpat non nisi sodales maximus. Nunc venenatis gravida efficitur. Nam pulvinar vel urna nec tempus. Duis porta id arcu a luctus. Suspendisse sit amet sodales turpis. Nunc in scelerisque purus.
+
+Proin tempor nunc libero, sed tincidunt velit bibendum in. Phasellus nisi massa, facilisis sed sollicitudin nec, rutrum in erat. Phasellus cursus neque nec arcu scelerisque porta. Pellentesque at sem at ipsum bibendum dictum. Vestibulum eget nunc quis neque tincidunt egestas sed id orci. Quisque auctor sem sed purus vehicula tempor. Aliquam erat volutpat. Nam nec odio ut turpis fringilla aliquam vitae ut ante. Morbi fermentum dictum elementum. Phasellus in orci magna. Mauris luctus enim at eros condimentum iaculis. Etiam sed nisl nunc. Nulla eget urna nec magna condimentum consectetur. Sed sed facilisis orci. Suspendisse ligula nisl, condimentum facilisis quam nec, lacinia facilisis sapien. Etiam et pellentesque felis.</history>
+            <availability>Curabitur pharetra gravida enim a porttitor. Vestibulum a viverra est, a gravida urna. Phasellus faucibus vehicula metus, sit amet mattis leo volutpat at. Donec hendrerit tempus posuere. Donec elementum neque risus. Praesent sagittis lorem odio, quis ultricies sem volutpat et. Phasellus ac dignissim nulla.</availability>
             <images>
                 <image src="test_photo" />
                 <image src="test_photo2"/>
