@@ -29,6 +29,8 @@ Proin tempor nunc libero, sed tincidunt velit bibendum in. Phasellus nisi massa,
             <images>
                 <image src="test_photo" />
                 <image src="test_photo2"/>
+                <image src="test_photo2"/>
+                <image src="test_photo2"/>
             </images>
         </wonder>
         <wonder contRef="AS">
@@ -47,6 +49,8 @@ Proin tempor nunc libero, sed tincidunt velit bibendum in. Phasellus nisi massa,
             <availability>Curabitur pharetra gravida enim a porttitor. Vestibulum a viverra est, a gravida urna. Phasellus faucibus vehicula metus, sit amet mattis leo volutpat at. Donec hendrerit tempus posuere. Donec elementum neque risus. Praesent sagittis lorem odio, quis ultricies sem volutpat et. Phasellus ac dignissim nulla.</availability>
             <images>
                 <image src="test_photo" />
+                <image src="test_photo2"/>
+                <image src="test_photo2"/>
                 <image src="test_photo2"/>
             </images>
         </wonder>

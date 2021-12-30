@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
    <fo:layout-master-set>
-      <fo:simple-page-master page-height="297mm"
+      <fo:simple-page-master page-height="350mm"
                              page-width="210mm"
                              margin="5mm 25mm 5mm 25mm"
                              master-name="PageMaster">
          <fo:region-body margin="20mm 0mm 20mm 0mm"/>
-         <fo:region-before extent="1cm"/>
       </fo:simple-page-master>
    </fo:layout-master-set>
    <fo:page-sequence master-reference="PageMaster">
@@ -14,9 +13,9 @@
          <fo:block>
             <fo:block font-weight="bold"
                       font-size="11px"
-                      margin-bottom="10"
+                      margin-bottom="10px"
                       text-align="center">TEST_NAME_1</fo:block>
-            <fo:table>
+            <fo:table margin-bottom="10px">
                <fo:table-column column-width="2.80in" column-number="1"/>
                <fo:table-column column-width="4.00in" column-number="2"/>
                <fo:table-body>
@@ -36,12 +35,27 @@
                   </fo:table-row>
                </fo:table-body>
             </fo:table>
-            <fo:inline font-weight="bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris nisl, sagittis id quam id, facilisis tristique urna. In eleifend velit sit amet nisl sollicitudin, sed pellentesque orci porta. Suspendisse potenti. Donec in libero dignissim, congue elit ut, faucibus augue. Vivamus quis neque leo. Nullam metus dolor, tincidunt eget convallis at, semper in tortor. Integer a vestibulum nisl. Quisque id purus semper, feugiat ligula tincidunt, accumsan neque. Vestibulum velit justo, tristique sed cursus sed, efficitur sit amet ligula. Vestibulum fermentum dui quis felis dictum, ut facilisis ante laoreet. Duis varius posuere nisi, fringilla consectetur elit.
+            <fo:block margin-bottom="10px" text-align="center">City: TEST_CITY_1, Region: TEST_REGION_1, Country: TEST_COUNTRY_1</fo:block>
+            <fo:block font-weight="bold" margin-bottom="10px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris nisl, sagittis id quam id, facilisis tristique urna. In eleifend velit sit amet nisl sollicitudin, sed pellentesque orci porta. Suspendisse potenti. Donec in libero dignissim, congue elit ut, faucibus augue. Vivamus quis neque leo. Nullam metus dolor, tincidunt eget convallis at, semper in tortor. Integer a vestibulum nisl. Quisque id purus semper, feugiat ligula tincidunt, accumsan neque. Vestibulum velit justo, tristique sed cursus sed, efficitur sit amet ligula. Vestibulum fermentum dui quis felis dictum, ut facilisis ante laoreet. Duis varius posuere nisi, fringilla consectetur elit.
 
 In hac habitasse platea dictumst. Praesent facilisis ultrices facilisis. Nam eu metus dui. Sed id metus semper, faucibus nunc ut, euismod sem. Mauris volutpat non nisi sodales maximus. Nunc venenatis gravida efficitur. Nam pulvinar vel urna nec tempus. Duis porta id arcu a luctus. Suspendisse sit amet sodales turpis. Nunc in scelerisque purus.
 
-Proin tempor nunc libero, sed tincidunt velit bibendum in. Phasellus nisi massa, facilisis sed sollicitudin nec, rutrum in erat. Phasellus cursus neque nec arcu scelerisque porta. Pellentesque at sem at ipsum bibendum dictum. Vestibulum eget nunc quis neque tincidunt egestas sed id orci. Quisque auctor sem sed purus vehicula tempor. Aliquam erat volutpat. Nam nec odio ut turpis fringilla aliquam vitae ut ante. Morbi fermentum dictum elementum. Phasellus in orci magna. Mauris luctus enim at eros condimentum iaculis. Etiam sed nisl nunc. Nulla eget urna nec magna condimentum consectetur. Sed sed facilisis orci. Suspendisse ligula nisl, condimentum facilisis quam nec, lacinia facilisis sapien. Etiam et pellentesque felis.</fo:inline>
-            <fo:block>
+Proin tempor nunc libero, sed tincidunt velit bibendum in. Phasellus nisi massa, facilisis sed sollicitudin nec, rutrum in erat. Phasellus cursus neque nec arcu scelerisque porta. Pellentesque at sem at ipsum bibendum dictum. Vestibulum eget nunc quis neque tincidunt egestas sed id orci. Quisque auctor sem sed purus vehicula tempor. Aliquam erat volutpat. Nam nec odio ut turpis fringilla aliquam vitae ut ante. Morbi fermentum dictum elementum. Phasellus in orci magna. Mauris luctus enim at eros condimentum iaculis. Etiam sed nisl nunc. Nulla eget urna nec magna condimentum consectetur. Sed sed facilisis orci. Suspendisse ligula nisl, condimentum facilisis quam nec, lacinia facilisis sapien. Etiam et pellentesque felis.</fo:block>
+            <fo:block margin-bottom="10px">
+               <fo:inline>
+                  <fo:external-graphic src="file:/D:/XML_COURSE_WORK/images/2.jpeg"
+                                       content-height="scale-to-fit"
+                                       height="2.00in"
+                                       content-width="2.00in"
+                                       scaling="non-uniform"/>
+               </fo:inline>
+               <fo:inline>
+                  <fo:external-graphic src="file:/D:/XML_COURSE_WORK/images/2.jpeg"
+                                       content-height="scale-to-fit"
+                                       height="2.00in"
+                                       content-width="2.00in"
+                                       scaling="non-uniform"/>
+               </fo:inline>
                <fo:inline>
                   <fo:external-graphic src="file:/D:/XML_COURSE_WORK/images/2.jpeg"
                                        content-height="scale-to-fit"
@@ -50,6 +64,7 @@ Proin tempor nunc libero, sed tincidunt velit bibendum in. Phasellus nisi massa,
                                        scaling="non-uniform"/>
                </fo:inline>
             </fo:block>
+            <fo:block>Curabitur pharetra gravida enim a porttitor. Vestibulum a viverra est, a gravida urna. Phasellus faucibus vehicula metus, sit amet mattis leo volutpat at. Donec hendrerit tempus posuere. Donec elementum neque risus. Praesent sagittis lorem odio, quis ultricies sem volutpat et. Phasellus ac dignissim nulla.</fo:block>
          </fo:block>
       </fo:flow>
    </fo:page-sequence>
@@ -58,9 +73,9 @@ Proin tempor nunc libero, sed tincidunt velit bibendum in. Phasellus nisi massa,
          <fo:block>
             <fo:block font-weight="bold"
                       font-size="11px"
-                      margin-bottom="10"
+                      margin-bottom="10px"
                       text-align="center">TEST_NAME_2</fo:block>
-            <fo:table>
+            <fo:table margin-bottom="10px">
                <fo:table-column column-width="2.80in" column-number="1"/>
                <fo:table-column column-width="4.00in" column-number="2"/>
                <fo:table-body>
@@ -80,12 +95,27 @@ Proin tempor nunc libero, sed tincidunt velit bibendum in. Phasellus nisi massa,
                   </fo:table-row>
                </fo:table-body>
             </fo:table>
-            <fo:inline font-weight="bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris nisl, sagittis id quam id, facilisis tristique urna. In eleifend velit sit amet nisl sollicitudin, sed pellentesque orci porta. Suspendisse potenti. Donec in libero dignissim, congue elit ut, faucibus augue. Vivamus quis neque leo. Nullam metus dolor, tincidunt eget convallis at, semper in tortor. Integer a vestibulum nisl. Quisque id purus semper, feugiat ligula tincidunt, accumsan neque. Vestibulum velit justo, tristique sed cursus sed, efficitur sit amet ligula. Vestibulum fermentum dui quis felis dictum, ut facilisis ante laoreet. Duis varius posuere nisi, fringilla consectetur elit.
+            <fo:block margin-bottom="10px" text-align="center">City: TEST_CITY_2, Region: TEST_REGION_2, Country: TEST_COUNTRY_2</fo:block>
+            <fo:block font-weight="bold" margin-bottom="10px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris nisl, sagittis id quam id, facilisis tristique urna. In eleifend velit sit amet nisl sollicitudin, sed pellentesque orci porta. Suspendisse potenti. Donec in libero dignissim, congue elit ut, faucibus augue. Vivamus quis neque leo. Nullam metus dolor, tincidunt eget convallis at, semper in tortor. Integer a vestibulum nisl. Quisque id purus semper, feugiat ligula tincidunt, accumsan neque. Vestibulum velit justo, tristique sed cursus sed, efficitur sit amet ligula. Vestibulum fermentum dui quis felis dictum, ut facilisis ante laoreet. Duis varius posuere nisi, fringilla consectetur elit.
 
 In hac habitasse platea dictumst. Praesent facilisis ultrices facilisis. Nam eu metus dui. Sed id metus semper, faucibus nunc ut, euismod sem. Mauris volutpat non nisi sodales maximus. Nunc venenatis gravida efficitur. Nam pulvinar vel urna nec tempus. Duis porta id arcu a luctus. Suspendisse sit amet sodales turpis. Nunc in scelerisque purus.
 
-Proin tempor nunc libero, sed tincidunt velit bibendum in. Phasellus nisi massa, facilisis sed sollicitudin nec, rutrum in erat. Phasellus cursus neque nec arcu scelerisque porta. Pellentesque at sem at ipsum bibendum dictum. Vestibulum eget nunc quis neque tincidunt egestas sed id orci. Quisque auctor sem sed purus vehicula tempor. Aliquam erat volutpat. Nam nec odio ut turpis fringilla aliquam vitae ut ante. Morbi fermentum dictum elementum. Phasellus in orci magna. Mauris luctus enim at eros condimentum iaculis. Etiam sed nisl nunc. Nulla eget urna nec magna condimentum consectetur. Sed sed facilisis orci. Suspendisse ligula nisl, condimentum facilisis quam nec, lacinia facilisis sapien. Etiam et pellentesque felis.</fo:inline>
-            <fo:block>
+Proin tempor nunc libero, sed tincidunt velit bibendum in. Phasellus nisi massa, facilisis sed sollicitudin nec, rutrum in erat. Phasellus cursus neque nec arcu scelerisque porta. Pellentesque at sem at ipsum bibendum dictum. Vestibulum eget nunc quis neque tincidunt egestas sed id orci. Quisque auctor sem sed purus vehicula tempor. Aliquam erat volutpat. Nam nec odio ut turpis fringilla aliquam vitae ut ante. Morbi fermentum dictum elementum. Phasellus in orci magna. Mauris luctus enim at eros condimentum iaculis. Etiam sed nisl nunc. Nulla eget urna nec magna condimentum consectetur. Sed sed facilisis orci. Suspendisse ligula nisl, condimentum facilisis quam nec, lacinia facilisis sapien. Etiam et pellentesque felis.</fo:block>
+            <fo:block margin-bottom="10px">
+               <fo:inline>
+                  <fo:external-graphic src="file:/D:/XML_COURSE_WORK/images/2.jpeg"
+                                       content-height="scale-to-fit"
+                                       height="2.00in"
+                                       content-width="2.00in"
+                                       scaling="non-uniform"/>
+               </fo:inline>
+               <fo:inline>
+                  <fo:external-graphic src="file:/D:/XML_COURSE_WORK/images/2.jpeg"
+                                       content-height="scale-to-fit"
+                                       height="2.00in"
+                                       content-width="2.00in"
+                                       scaling="non-uniform"/>
+               </fo:inline>
                <fo:inline>
                   <fo:external-graphic src="file:/D:/XML_COURSE_WORK/images/2.jpeg"
                                        content-height="scale-to-fit"
@@ -94,6 +124,7 @@ Proin tempor nunc libero, sed tincidunt velit bibendum in. Phasellus nisi massa,
                                        scaling="non-uniform"/>
                </fo:inline>
             </fo:block>
+            <fo:block>Curabitur pharetra gravida enim a porttitor. Vestibulum a viverra est, a gravida urna. Phasellus faucibus vehicula metus, sit amet mattis leo volutpat at. Donec hendrerit tempus posuere. Donec elementum neque risus. Praesent sagittis lorem odio, quis ultricies sem volutpat et. Phasellus ac dignissim nulla.</fo:block>
          </fo:block>
       </fo:flow>
    </fo:page-sequence>
