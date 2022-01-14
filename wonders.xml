@@ -24,10 +24,10 @@
             <availability>Цена – 44лв | Транспорт - Най-лесно можете да стигнете с линия В на метрото, спирка „Colosseo“. | Работно време – Всеки ден от 9:00 до 16:30
 </availability>
             <images>
-                <image src="test_photo" />
-                <image src="test_photo2"/>
-                <image src="test_photo2"/>
-                <image src="test_photo2"/>
+                <image src="kolizeum1" />
+                <image src="kolizeum2"/>
+                <image src="kolizeum3"/>
+                <image src="kolizeum4"/>
             </images>
         </wonder>
         <wonder contRef="AS">
@@ -42,10 +42,10 @@
             <availability>Работно време – През слаб сезон от 08:00 до 17:00, а през силния сезон от 07:30 до 18:00 | Цена – Средната цена на билетите е 10лв. | Адрес – най-популярната част от стената е на адрес Mutianyu Village, Bohai Town, Huairou District, Beijing | Транспорт – От Dongzhimen, Beijing с автобус 916 и след това с H23, H24, H35, или H36
 </availability>
             <images>
-                <image src="test_photo" />
-                <image src="test_photo2"/>
-                <image src="test_photo2"/>
-                <image src="test_photo2"/>
+                <image src="greatwall1" />
+                <image src="greatwall2"/>
+                <image src="greatwall2"/>
+                <image src="greatwall2"/>
             </images>
         </wonder>
         <wonder>
@@ -60,10 +60,10 @@
             <availability>Транспорт - 3 часа с кола от Аман. | Най-добро време: март-май, септември-ноември и винаги, когато късното следобедно слънце обагря града в наситено розово. | Цена – 220 лв.
 </availability>
             <images>
-                <image src="tset_photo"></image>
-                <image src="tset_photo"></image>
-                <image src="tset_photo"></image>
-                <image src="tset_photo"></image>
+                <image src="petra1"></image>
+                <image src="petra2"></image>
+                <image src="petra3"></image>
+                <image src="petra4"></image>
             </images>
         </wonder>
         <wonder>
@@ -78,10 +78,10 @@
             <availability>Работно време – Всеки ден от 08:00 до 19:00ч. | Цена – Средна цена на билетите е 25лв.
 </availability>
             <images>
-                <image src="tset_photo"></image>
-                <image src="tset_photo"></image>
-                <image src="tset_photo"></image>
-                <image src="tset_photo"></image>
+                <image src="jesus1"></image>
+                <image src="jesus2"></image>
+                <image src="jesus3"></image>
+                <image src="jesus4"></image>
             </images>
         </wonder>
         <wonder>
@@ -95,10 +95,10 @@
             <history>На един 24 юли преди 110 години един американски археолог на име Хиран Бингъм се натъква на руините северозападно от перуанския град Куско. Откритието му не е случайно. Той тръгва на експедиция в Андите, за да търси изгубения град на инките, който до тази дата е само легенда. Експедицията се движи в долината на река Урубамба, където среща местен земевладелец, който има казва, че на върха на близка планина има някакви руини и нарича върха "Мачу Пикчу" ("стар връх" от местния език кечуа). Когато Бингъм се спира пред каменните тераси на входа на изгубения град, той може би още не знае, че това събитие ще повлече след себе си милиони туристи и ще възпламени интереса към древната култура на инките и тайнствения град, който са обитавали.  радът е разположен на върха на планински хребет на височина 2057 метра над долината на река Урубамба на територията на днешно Перу. Със своите скромни размери Мачу Пикчу не може да претендира за звание на голям град – в него има не повече от 200 сгради. Това са главно храмове, жилища, складове и други помещения за обществени нужди. По-голямата част са направени от добре обработени камъни, плътно снадени един с друг. Предполага се, че в града и околностите са живели около 1200 души, които са се кланяли там на бога на Слънцето Инти и са отглеждали селскостопански култури на тераси.</history>
             <availability>Цена – Цена на билетите 65лв.</availability>
             <images>
-                <image src="tset_photo"></image>
-                <image src="tset_photo"></image>
-                <image src="tset_photo"></image>
-                <image src="tset_photo"></image>
+                <image src="macho1"></image>
+                <image src="macho2"></image>
+                <image src="macho3"></image>
+                <image src="macho4"></image>
             </images>
         </wonder>
         <wonder>
@@ -117,10 +117,10 @@
             <availability>Цена – Билети на цена 45лв. | Работно време – От понеделник до събота от 08:00 до 17:00ч.
 </availability>
             <images>
-                <image src="tset_photo"></image>
-                <image src="tset_photo"></image>
-                <image src="tset_photo"></image>
-                <image src="tset_photo"></image>
+                <image src="chichen1"></image>
+                <image src="chichen2"></image>
+                <image src="chichen3"></image>
+                <image src="chichen4"></image>
             </images>
         </wonder>
         <wonder>
@@ -135,10 +135,10 @@
             <availability>Цена: Билети на цена 24лв. | Работно време – От понеделник до четвъртък. Отваря 30 мин. преди изгрев и затваря 30 мин. преди залез.
 </availability>
             <images>
-                <image src="tset_photo"></image>
-                <image src="tset_photo"></image>
-                <image src="tset_photo"></image>
-                <image src="tset_photo"></image>
+                <image src="tadj1"></image>
+                <image src="tadj2"></image>
+                <image src="tadj3"></image>
+                <image src="tadj4"></image>
             </images>
         </wonder>
     </wonders>
