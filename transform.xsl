@@ -71,7 +71,6 @@
         </fo:block>
     </xsl:template>
     <xsl:template match="images">
-    <!-- <xsl:for-each select="./tokenize(@photos, ' ')"> -->
     <fo:block margin-bottom="10px">
         <xsl:for-each select="./image">
             <xsl:if test="position()!=1">

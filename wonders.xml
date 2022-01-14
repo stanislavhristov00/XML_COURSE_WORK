@@ -3,7 +3,7 @@
 <!DOCTYPE catalog SYSTEM "wonders.dtd">
 <catalog>
     <continents>
-        <continent id="AS">Азиа</continent>
+        <continent id="AS">Азия</continent>
         <continent id="AF">Африка</continent>
         <continent id="NA">Северна Америка</continent>
         <continent id="SA">Южна Америка</continent>
@@ -12,20 +12,17 @@
         <continent id="AU">Австралия</continent>
     </continents>
     <wonders>
-        <wonder contRef="AS">
-            <name>TEST_NAME_1</name>
+        <wonder contRef="EU">
+            <name>Колизеумът в Рим</name>
             <location>
-                <city>TEST_CITY_1</city>
-                <region>TEST_REGION_1</region>
-                <country>TEST_COUNTRY_1</country>
+                <city>Рим</city>
+                <region>Италия</region>
+                <country>Италия</country>
             </location>
-            <description>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</description>
-            <history>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris nisl, sagittis id quam id, facilisis tristique urna. In eleifend velit sit amet nisl sollicitudin, sed pellentesque orci porta. Suspendisse potenti. Donec in libero dignissim, congue elit ut, faucibus augue. Vivamus quis neque leo. Nullam metus dolor, tincidunt eget convallis at, semper in tortor. Integer a vestibulum nisl. Quisque id purus semper, feugiat ligula tincidunt, accumsan neque. Vestibulum velit justo, tristique sed cursus sed, efficitur sit amet ligula. Vestibulum fermentum dui quis felis dictum, ut facilisis ante laoreet. Duis varius posuere nisi, fringilla consectetur elit.
-
-In hac habitasse platea dictumst. Praesent facilisis ultrices facilisis. Nam eu metus dui. Sed id metus semper, faucibus nunc ut, euismod sem. Mauris volutpat non nisi sodales maximus. Nunc venenatis gravida efficitur. Nam pulvinar vel urna nec tempus. Duis porta id arcu a luctus. Suspendisse sit amet sodales turpis. Nunc in scelerisque purus.
-
-Proin tempor nunc libero, sed tincidunt velit bibendum in. Phasellus nisi massa, facilisis sed sollicitudin nec, rutrum in erat. Phasellus cursus neque nec arcu scelerisque porta. Pellentesque at sem at ipsum bibendum dictum. Vestibulum eget nunc quis neque tincidunt egestas sed id orci. Quisque auctor sem sed purus vehicula tempor. Aliquam erat volutpat. Nam nec odio ut turpis fringilla aliquam vitae ut ante. Morbi fermentum dictum elementum. Phasellus in orci magna. Mauris luctus enim at eros condimentum iaculis. Etiam sed nisl nunc. Nulla eget urna nec magna condimentum consectetur. Sed sed facilisis orci. Suspendisse ligula nisl, condimentum facilisis quam nec, lacinia facilisis sapien. Etiam et pellentesque felis.</history>
-            <availability>Curabitur pharetra gravida enim a porttitor. Vestibulum a viverra est, a gravida urna. Phasellus faucibus vehicula metus, sit amet mattis leo volutpat at. Donec hendrerit tempus posuere. Donec elementum neque risus. Praesent sagittis lorem odio, quis ultricies sem volutpat et. Phasellus ac dignissim nulla.</availability>
+            <description>Колизеумът е най-впечатляващият и голям античен амфитеатър. Построен е като подарък за жителите на Рим от придобиващата все по-голяма популярност династия на Флавиите. Великият паметник е едновременно с това демонстрация на силата и богатството на Римската империя, както и на архитектурните техники на римляните.</description>
+            <history>LoremКолизеумът е най-пространният и най-великолепният от амфитеатрите в Древен Рим, започнат от Веспасиан между 70 и 72 г. и завършен през 80 г. от Тит, като някои допълнителни промени са направени по времето на Домициан (81 – 96 г.).  С възможност да побере 50 хил. зрители, Колизеумът е използван за гладиаторски борби, както и за други зрелища, като имитации на морски битки, лов на животни, екзекуции, възстановки на битки и драми с митологични сюжети. През Ранното средновековие сградата престава да се използва за представления, а по-късно служи за различни нужди – жилища, работилници, седалище на религиозен орден, укрепление, кариера и християнски храм. Макар че в наши дни е частично разрушен от земетресения и извличане на каменни блокове, Колизеумът остава един от главните символи на Римската империя и нейните инженерни постижения. Той е сред най-популярните туристически забележителности на град Рим и продължава да бъде свързан с Римокатолическата църква, като ежегодно на Разпети петък папата води факелно шествие, започващо в района на Колизеумът.</history>
+            <availability>Цена – 44лв | Транспорт - Най-лесно можете да стигнете с линия В на метрото, спирка „Colosseo“. | Работно време – Всеки ден от 9:00 до 16:30
+</availability>
             <images>
                 <image src="test_photo" />
                 <image src="test_photo2"/>
@@ -34,24 +31,114 @@ Proin tempor nunc libero, sed tincidunt velit bibendum in. Phasellus nisi massa,
             </images>
         </wonder>
         <wonder contRef="AS">
-            <name>TEST_NAME_2</name>
+            <name>Великата Китайска стена</name>
             <location>
-                <city>TEST_CITY_2</city>
-                <region>TEST_REGION_2</region>
-                <country>TEST_COUNTRY_2</country>
+                <city>Северен Китай</city>
+                <region>Азия и Океания</region>
+                <country>Китай</country>
             </location>
-            <description>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</description>
-            <history>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris nisl, sagittis id quam id, facilisis tristique urna. In eleifend velit sit amet nisl sollicitudin, sed pellentesque orci porta. Suspendisse potenti. Donec in libero dignissim, congue elit ut, faucibus augue. Vivamus quis neque leo. Nullam metus dolor, tincidunt eget convallis at, semper in tortor. Integer a vestibulum nisl. Quisque id purus semper, feugiat ligula tincidunt, accumsan neque. Vestibulum velit justo, tristique sed cursus sed, efficitur sit amet ligula. Vestibulum fermentum dui quis felis dictum, ut facilisis ante laoreet. Duis varius posuere nisi, fringilla consectetur elit.
-
-In hac habitasse platea dictumst. Praesent facilisis ultrices facilisis. Nam eu metus dui. Sed id metus semper, faucibus nunc ut, euismod sem. Mauris volutpat non nisi sodales maximus. Nunc venenatis gravida efficitur. Nam pulvinar vel urna nec tempus. Duis porta id arcu a luctus. Suspendisse sit amet sodales turpis. Nunc in scelerisque purus.
-
-Proin tempor nunc libero, sed tincidunt velit bibendum in. Phasellus nisi massa, facilisis sed sollicitudin nec, rutrum in erat. Phasellus cursus neque nec arcu scelerisque porta. Pellentesque at sem at ipsum bibendum dictum. Vestibulum eget nunc quis neque tincidunt egestas sed id orci. Quisque auctor sem sed purus vehicula tempor. Aliquam erat volutpat. Nam nec odio ut turpis fringilla aliquam vitae ut ante. Morbi fermentum dictum elementum. Phasellus in orci magna. Mauris luctus enim at eros condimentum iaculis. Etiam sed nisl nunc. Nulla eget urna nec magna condimentum consectetur. Sed sed facilisis orci. Suspendisse ligula nisl, condimentum facilisis quam nec, lacinia facilisis sapien. Etiam et pellentesque felis.</history>
-            <availability>Curabitur pharetra gravida enim a porttitor. Vestibulum a viverra est, a gravida urna. Phasellus faucibus vehicula metus, sit amet mattis leo volutpat at. Donec hendrerit tempus posuere. Donec elementum neque risus. Praesent sagittis lorem odio, quis ultricies sem volutpat et. Phasellus ac dignissim nulla.</availability>
+            <description>Великата китайска стена е най-дългата стена в света и най-голямата древна архитектура. Построена за защита на Китай от нашествие, тя е една от най-известните структури в света.</description>
+            <history>Разходката по стената, която е част от седемте чудеса на света, ще ви отведе през разнообразни и зашеметяващи пейзажи, включително сурови планини, обширна пустиня и буйни зелени земи. Официалната дължина е 21 196,18 км. Строена е като цяло от изток на запад по историческата северна граница на страната за нейната защита от нападенията на различни номадски народи от Евразийската степ. Освен за отбранителни цели Великата стена се използва и за осъществяване на граничен контрол, позволявайки ефективното налагане на мита на превозваните по Пътя на коприната стоки, ограничаване или насърчаване на търговията и контрол на имиграцията и емиграцията. Отбранителните възможности на стената са усилени с изграждането на наблюдателни кули, казарми, гарнизони, системи за димна или светлинна сигнализация, както и от използването на трасето на самата стена като транспортен коридор. Великата китайска стена се приема и за символ на тиранията, тъй като за нейното строителство са привикани на ангария стотици хиляди хора – майстори, затворници, войници и селяни, като много от тях умират по време на строежа. Освен това, когато Цин Шъхуан издава заповедта за изгаряне на всички книги, с изключение на аналите на неговата династия, по медицина и фармацевтика, се доуточнява, че който не изпълни заповедта до 30 дена след влизането ѝ в сила, ще бъде изпратен да работи на стената с обръсната глава, желязна верига на врата и йероглифи, изписани на лицето му, за период от 4 години. Строителството на защитните стени и особено това на Великата стена на Цин Шъхуан неизменно поражда недоволството на опозицията, която упреква императорите в жестокост и тирания, тъй като това изцежда големи финансови средства и човешки ресурси. Този колосален труд се извършва в епоха без машини с цената на непосилен труд. Чън Лин от династия Хан пише, че това е време, когато е по-добре да родиш момиче, отколкото момче. У Лунхан от Сун пише, че Стената е толкова висока, защото е стъпила на човешки кости и толкова дълбока, защото е напоена с кръвта им. Затова понякога се казва, че Великата стена е „най-голямото гробище в света“, тъй като там, според някои историци, са намерили смъртта си 10 милиона души. Това, от своя страна, подтиква народа да създаде множество истории и легенди, свързани с нея.</history>
+            <availability>Работно време – През слаб сезон от 08:00 до 17:00, а през силния сезон от 07:30 до 18:00 | Цена – Средната цена на билетите е 10лв. | Адрес – най-популярната част от стената е на адрес Mutianyu Village, Bohai Town, Huairou District, Beijing | Транспорт – От Dongzhimen, Beijing с автобус 916 и след това с H23, H24, H35, или H36
+</availability>
             <images>
                 <image src="test_photo" />
                 <image src="test_photo2"/>
                 <image src="test_photo2"/>
                 <image src="test_photo2"/>
+            </images>
+        </wonder>
+        <wonder>
+            <name>Град Петра</name>
+            <location>
+                <city>Петра</city>
+                <region>област Маан</region>
+                <country>Йордания</country>
+            </location>
+            <description>Розово-червеният град Петра, едно от чудесата на древния свят, има части, които са чудесно съхранени, и други, които са били подложени на ерозия и скулптирани от природните стихии.</description>
+            <history>Докато швейцарският изследовател Йохан Лудвиг Буркхарт не го „преоткрива“ през 1812 г., Петра е бил забравен от векове. Той може да бъде достигнат пеша през клисурата Сик, тесен, ветровит проход, който в някои участъци е широк не повече от 1,80 м, със скали от двете страни, високи колкото четириетажна сграда. В края на този страховит, дълъг километър и половина проход, виждате магическа гледка през пролуката: Хазна, или Съкровищницата, извисяващ се, в класически гръцки стил храм, изсечен направо в огромната лицева част на 39-метрова скала. Той датира от V–VІ в. пр.н.е. и едно от най-добре запазените чудеса на Петра. Петра, чието име означава „скала“, е била укрепен град и процъфтяващ търговски център, чиито жители изсичат къщи, храмове и гробници, понякога с извънредно сложни и украсени с колони фасади, в естествените стени на каньона. Областта с площ около 3 кв.км. е забележителна колкото с броя и разнообразието си на изрязаните в скалата монументи, толкова и заради хилядите отсенки на скалата и играта на непрестанно изменящата се светлина, докато пустинното слънце изминава своя път на небето. </history>
+            <availability>Транспорт - 3 часа с кола от Аман. | Най-добро време: март-май, септември-ноември и винаги, когато късното следобедно слънце обагря града в наситено розово. | Цена – 220 лв.
+</availability>
+            <images>
+                <image src="tset_photo"></image>
+                <image src="tset_photo"></image>
+                <image src="tset_photo"></image>
+                <image src="tset_photo"></image>
+            </images>
+        </wonder>
+        <wonder>
+            <name>Статуя на Христос Спасител</name>
+            <location>
+                <city>Рио де Жанейро</city>
+                <region>Бразилия</region>
+                <country>Бразилия</country>
+            </location>
+            <description>Статуята на Христос Изкупителя в Рио де Жанейро, Бразилия е един от най-посещаваните паметници в света! Христос приветства и благославя жителите на града и туристите с разтворени ръце. Вечер паметникът е осветен и заради внушителните си размери се вижда дори  далеч в океана!</description>
+            <history>Проектът за построяване на монумента става повод за спорове между светската власт и тази на църквата. И все пак духовенството успява да събуди интереса на гражданите с идеята да създадат символ на християнската вяра, който да обедини вярващите. И така проектът започва през 1922 година и девет по-късно (през 1931 година) е завършен в целия си блясък. Висока е 39,6 m, размахът на ръцете е 28 m, тежи 635 t. Изградена е от железобетон и е облицована със стеатит, устойчив на външни въздействия. Разположена е на високия 710 m хълм Корковадо в предградията на града. Допълнителната височина на хълма превръща този съвременен колос в символ на християнството и главна забележителност на Рио де Жанейро и Бразилия. Статуята тържествено е открита за посетители на 12 октомври 1931 г. На 7 юли 2007 г. в Лисабон статуята е включена в списъка на Новите седем чудеса на света в проекта на швейцарската фондация New7Wonders Foundation. Туристите могат да стигнат до основата на статуята с автомобил, железница или по пешеходен маршрут.</history>
+            <availability>Работно време – Всеки ден от 08:00 до 19:00ч. | Цена – Средна цена на билетите е 25лв.
+</availability>
+            <images>
+                <image src="tset_photo"></image>
+                <image src="tset_photo"></image>
+                <image src="tset_photo"></image>
+                <image src="tset_photo"></image>
+            </images>
+        </wonder>
+        <wonder>
+            <name>Мачу Пикчу</name>
+            <location>
+                <city>Мачу Пикчу</city>
+                <region>Куско</region>
+                <country>Перу</country>
+            </location>
+            <description>Мачу Пикчу (буквално „стар връх“) понякога е наричан „изгубеният град на инките“. Този град е бил създаден като свещен планински дом на великия управник на инките Пачакути, столетие преди превземането му от Испанската империя – около 1440 г., и функционирал до 1532 г., когато испанците са нападнали империята на инките. През 1532 г. всички негови жители тайнственно са изчезнали.</description>
+            <history>На един 24 юли преди 110 години един американски археолог на име Хиран Бингъм се натъква на руините северозападно от перуанския град Куско. Откритието му не е случайно. Той тръгва на експедиция в Андите, за да търси изгубения град на инките, който до тази дата е само легенда. Експедицията се движи в долината на река Урубамба, където среща местен земевладелец, който има казва, че на върха на близка планина има някакви руини и нарича върха "Мачу Пикчу" ("стар връх" от местния език кечуа). Когато Бингъм се спира пред каменните тераси на входа на изгубения град, той може би още не знае, че това събитие ще повлече след себе си милиони туристи и ще възпламени интереса към древната култура на инките и тайнствения град, който са обитавали.  радът е разположен на върха на планински хребет на височина 2057 метра над долината на река Урубамба на територията на днешно Перу. Със своите скромни размери Мачу Пикчу не може да претендира за звание на голям град – в него има не повече от 200 сгради. Това са главно храмове, жилища, складове и други помещения за обществени нужди. По-голямата част са направени от добре обработени камъни, плътно снадени един с друг. Предполага се, че в града и околностите са живели около 1200 души, които са се кланяли там на бога на Слънцето Инти и са отглеждали селскостопански култури на тераси.</history>
+            <availability>Цена – Цена на билетите 65лв.</availability>
+            <images>
+                <image src="tset_photo"></image>
+                <image src="tset_photo"></image>
+                <image src="tset_photo"></image>
+                <image src="tset_photo"></image>
+            </images>
+        </wonder>
+        <wonder>
+            <name>Чичен Ица</name>
+            <location>
+                <city>Чичен Ица</city>
+                <region>Латинска Америка</region>
+                <country>Юкатан, Мексико</country>
+            </location>
+            <description>Чичен Ица, в превод “кладенецът на племето Ица”, е древен град на маите, а по-късно и на толтеките, които след превземането му го превръщат в своя столица.</description>
+            <history>Най-вероятно градът е основан през VIII-IX век. През X век е превзет от толтеките, а век по-късно става столица на толтекската държава. На територията на Чичен Ица нееднократно са провеждани разкопки и са открити различни битови и ритуални предмети като съдове, други грънчарски и златни изделия на маите и толтеките.
+
+Когато говорим за Чичен Ица не можем да не започнем с най-известната сграда в комплекса – храма на Кукулкан или както испанците са го нарекли Ел Кастийо, в превод “замъка”. Пирамидата е построена в чест на върховния вожд и Богочовек Топилцин Кецалкоатъл – Кукулкан. На езика на маите Кукулкан означава “пернат змей”. Глава на змия е един от най-често срещаните орнаменти по храмовете и платформите в града. В близост до Ел Кастийо е забележителна постройка – платформата на орлите и ягуарите. Тя е с 4 стълбища, започващи със змийски глави и с барелефи на орли и ягуари, разкъсващи човешки сърца. Разходката из Чичен Ица минава покрай “стената на черепите”. На нея има издълбани черепи, сцени от жертвоприношения, на които орли разкъсват човешки сърца и фигури войни със стрели и щитове.
+Днес градът на маите и толтеките е популярна туристическа дестинация, включен е в Списъка на световното културно и природно наследство на ЮНЕСКО и е втори най-популярен сред туристите на археологически обекти в Мексико. През 2007 г. градът на маите е обявен за едно от новите седем чудеса на света.
+</history>
+            <availability>Цена – Билети на цена 45лв. | Работно време – От понеделник до събота от 08:00 до 17:00ч.
+</availability>
+            <images>
+                <image src="tset_photo"></image>
+                <image src="tset_photo"></image>
+                <image src="tset_photo"></image>
+                <image src="tset_photo"></image>
+            </images>
+        </wonder>
+        <wonder>
+            <name>Тадж Махал</name>
+            <location>
+                <city>Агра</city>
+                <region>Азия и Океания</region>
+                <country>Индия</country>
+            </location>
+            <description>Великолепното архитектурно произведение в Индия, Тадж Махал, може да бъде наречено вечен символ на любовта, защото е построено от един мъж в памет на любимата му жена.</description>
+            <history>Принц Кхуррам, третият син на император Джахангир, се жени за красивата принцеса Арджуманд Бано Бегум. През 1628 г. Кхуррам заема императорския престол под името Шах Джахан (господар на света), а съпругата му е наречена Мумтаз Махал (възвишената в двореца).  Историята им е като от приказките – голяма любов, чийто плод са 14 деца. Тя обаче не завършва щастливо. Мумтаз Махал си отива от този свят едва на 39 години, при раждане. В последните си мигове тя моли любимия си да й построи гробница, каквато не е виждана до този момент. И той изпълнява желанието й. Строителството на Тадж Махал започва две години след смъртта й и продължава цели 21 години, а в в него участват над 20 хиляди строители и занаятчии.  Шах Джахан е погребан до Мумтаз Махал през 1666 г. Осем години преди това той е свален от трона от един от синовете си . Наследникът затворил баща си в кралския му апартамент в Агра форт. Оттам през реката шах Джахан от сутрин до вечер съзерцавал Тадж Махал, където било останало сърцето му. Вътре в мавзолея са разположени две гробници – на шаха и на неговата съпруга. Тадж Махал е съоръжение върху платформа с пет купола, издигащи се на височина 74 метра и с 4 минарета в ъглите (те са леко наклонени навън от гробницата, за да не я повредят в случай на разрушение). Пред храма е изградена градина с фонтани и басейн. Стените са от полиран полупрозрачен мрамор с инкрустации от скъпоценни камъни. Мраморът има интересна особеност – при ярка дневна светлина той изглежда бял, рано сутрин той става розов, а в лунна нощ – сребрист. На другия бряг на реката е трябвало да бъде построена сграда-близнак, изградена от черен мрамор, но тя така и не е била достроена. Тези две сгради е трябвало да бъдат съединени с мост от сив мрамор. Мавзолеят има многобройни символи, скрити в неговата архитектура и планиране. Така например на портата, през която посетителите влизат в парковия комплекс пред мавзолея, е изсечен цитат от Корана, който завършва с думите „влез в моя рай“. На местния език от онова време думите „рай“ и „градина“ са се изписвали по един и същ начин и затова може да се смята, че замисълът на Шах Джахан е да пресъздаде рая на земята и да положи тялото на своята възлюбена в него.</history>
+            <availability>Цена: Билети на цена 24лв. | Работно време – От понеделник до четвъртък. Отваря 30 мин. преди изгрев и затваря 30 мин. преди залез.
+</availability>
+            <images>
+                <image src="tset_photo"></image>
+                <image src="tset_photo"></image>
+                <image src="tset_photo"></image>
+                <image src="tset_photo"></image>
             </images>
         </wonder>
     </wonders>
