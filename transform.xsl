@@ -11,7 +11,7 @@
                 </fo:simple-page-master>
             </fo:layout-master-set>
             <xsl:for-each select="./wonders/wonder">
-                <fo:page-sequence master-reference="PageMaster">
+                <fo:page-sequence master-reference="PageMaster" font-family="Calibri">
                     <fo:flow flow-name="xsl-region-body" >
                         <fo:block>
                             <xsl:apply-templates select="name"/>
@@ -33,7 +33,7 @@
     </xsl:template>
 
     <xsl:template match="name">
-        <fo:block font-weight="bold" font-size="11px" margin-bottom="10px" text-align="center">
+        <fo:block font-weight="bold" font-size="44px" margin-bottom="10px" text-align="center">
             <xsl:apply-templates />
         </fo:block>
     </xsl:template>
